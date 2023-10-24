@@ -7,12 +7,9 @@ public:
         
         for(int i = 0; i<n; i++){
             for(int j = 0; j<n; j++){
-                if(i == j){
-                    continue;
-                }
-                else if(nums[j] < nums[i]){
+                if(i != j && nums[j] < nums[i]){
                     count++;
-                }
+                } 
             }
             
             result.push_back(count);
