@@ -6,12 +6,9 @@ public:
         for(string letter : words){
             acro += letter[0];
         }
-        
-        if(acro == s){
-            return true;
-        }
-        else{
+        if(acro != s){
             return false;
         }
+        return true;
     }
 };
