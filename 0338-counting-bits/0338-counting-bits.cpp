@@ -1,11 +1,10 @@
 class Solution {
 public:
     vector<int> countBits(int n) {
-        vector<int> ans;
+        vector<int> ans(n+1, 0);
         
-        for(int i = 0; i<=n; i++){
-            int number = onesCount(i);
-            ans.push_back(number);
+        for(int i = 1; i<=n; i++){
+            ans[i] = onesCount(i);
         }
         
         return ans;
@@ -13,9 +12,7 @@ public:
     
 private:
     int onesCount(int num){
-        if(num == 0){
-            return 0;
-        }
+        
         string binary_value = "";
         
         while(num > 0){
