@@ -1,27 +1,13 @@
 class Solution {
 public:
     vector<int> countBits(int n) {
-        vector<int> ans(n+1, 0);
+        vector<int> ans;
         
-        for(int i = 1; i<=n; i++){
-            ans[i] = onesCount(i);
+        for(int i = 0; i<=n; i++){
+            bitset<32> binaryRepresentation(i);
+            ans.push_back(binaryRepresentation.count());
         }
         
         return ans;
-    }
-    
-private:
-    int onesCount(int num){
-        
-        string binary_value = "";
-        
-        while(num > 0){
-            int remainder = num%2;
-            binary_value = to_string(remainder) + binary_value;
-            num /= 2;
-        }
-        
-        int counts = count(binary_value.begin() , binary_value.end() , '1');
-        return counts;
     }
 };
