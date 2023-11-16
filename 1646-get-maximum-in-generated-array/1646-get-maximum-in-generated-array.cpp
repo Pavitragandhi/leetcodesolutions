@@ -15,7 +15,6 @@ public:
                 nums[(2*i)+1] = nums[i] + nums[i+1];
             }
         }
-        //sort(nums.begin() , nums.end());
         return *max_element(nums.begin() , nums.end());
     }
 };
