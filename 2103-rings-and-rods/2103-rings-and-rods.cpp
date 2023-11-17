@@ -17,7 +17,7 @@ public:
             }
         }
         for(bool allThree : countThree){
-            if(allThree == true){
+            if(allThree){
                 count++;
             }
         }
