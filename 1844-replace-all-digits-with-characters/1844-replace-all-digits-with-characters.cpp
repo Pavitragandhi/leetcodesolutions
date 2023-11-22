@@ -5,6 +5,7 @@ public:
         for(int i = 1; i<n; i+=2){
             s[i] = shift(s[i-1] , s[i]);
         }
+        
         return s;
     }
     
