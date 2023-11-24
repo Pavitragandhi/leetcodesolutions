@@ -12,6 +12,7 @@ public:
                 result += num[i];
             }
         }
+        
         reverse(result.begin() , result.end());
         return result;
     }
