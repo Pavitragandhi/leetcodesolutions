@@ -4,7 +4,6 @@ public:
         int n = nums.size();
         
         for(int i = 0; i<n; i++){
-            
             if(i%2 == 0 && nums[i]%2 != 0){
                 int store = nums[i];
                 for(int j = i+1; j<n; j++){
