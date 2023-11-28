@@ -10,14 +10,14 @@ public:
             int count = 0;
             int sum = 0;
             for(int j = 0; j<n; j++){
-                if(queries[i] >= nums[j] && queries[i] >= sum){
+                if(queries[i] >= nums[j] && queries[i] >= nums[j]+sum){
                     sum += nums[j];
                     count++;
                 }
             }
-            if(sum > queries[i]){
-                count--;
-            }
+           // if(sum > queries[i]){
+            //    count--;
+           // }
             answer[i] = count;
         }
         
