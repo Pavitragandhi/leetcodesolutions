@@ -15,7 +15,6 @@ public:
                     }
                 }
             }
-            
             else if(i%2 != 0 && nums[i]%2 == 0){
                 int store = nums[i];
                 for(int j = i+1; j<n; j++){
@@ -29,6 +28,5 @@ public:
         }
         
         return nums;
-        
     }
 };
