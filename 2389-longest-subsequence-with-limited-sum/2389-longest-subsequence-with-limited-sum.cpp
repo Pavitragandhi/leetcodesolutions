@@ -15,9 +15,6 @@ public:
                     count++;
                 }
             }
-           // if(sum > queries[i]){
-            //    count--;
-           // }
             answer[i] = count;
         }
         
