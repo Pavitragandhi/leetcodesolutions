@@ -15,6 +15,7 @@ public:
                     count++;
                 }
             }
+            
             if(sum > queries[i]){
                 count--;
             }
