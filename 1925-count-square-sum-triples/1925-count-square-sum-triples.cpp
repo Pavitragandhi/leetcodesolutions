@@ -9,6 +9,7 @@ public:
                 int b = j*j;
                 for(int k = j+1; k<n+1; k++){
                     int c = k*k;
+                    
                     if(c == a + b){
                         count += 2;
                     }
