@@ -1,6 +1,7 @@
 class Solution {
 public:
     int totalMoney(int n) {
+        
         int count = 0;
         int add = 0;
         int sum = 0;
