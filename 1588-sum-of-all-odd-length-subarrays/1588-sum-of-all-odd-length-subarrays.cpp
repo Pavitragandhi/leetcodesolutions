@@ -5,7 +5,6 @@ public:
         int sum = 0;
         
         for(int i = 0; i<n; i++){
-            //sum += arr[i];
             vector<int> store;
             for(int j = i; j<n; j++){
                 store.push_back(arr[j]);
