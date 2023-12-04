@@ -4,8 +4,13 @@ public:
         int n = nums.size();
         int result;
         
+        sort(nums.begin() , nums.end());
+        
         for(int i = 0; i<=n; i++){
-            if(find(nums.begin() , nums.end() , i) == nums.end()){
+            if(i == n){
+                result = i;
+            }
+            else if(nums[i] != i){
                 result = i;
                 break;
             }
