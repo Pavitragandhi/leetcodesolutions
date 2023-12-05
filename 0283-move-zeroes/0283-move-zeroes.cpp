@@ -12,7 +12,6 @@ public:
                 n--;
             }
         }
-        
         for(int i = 0; i<count; i++){
             nums.push_back(0);
         }
