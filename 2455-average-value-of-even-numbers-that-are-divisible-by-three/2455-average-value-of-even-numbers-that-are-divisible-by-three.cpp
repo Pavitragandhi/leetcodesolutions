@@ -15,6 +15,7 @@ public:
             return 0;
         }
         sum /= count;
+        
         return ceil(sum);
     }
 };
