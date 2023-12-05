@@ -12,6 +12,7 @@ public:
             }
             n--;
         }
+        
         return unique_values.size();
     }
 };
