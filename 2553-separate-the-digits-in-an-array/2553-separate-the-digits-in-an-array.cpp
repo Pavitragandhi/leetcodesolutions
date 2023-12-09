@@ -10,6 +10,7 @@ public:
                 result.push_back(c - '0');
             }
         }
+        
         return result;
     }
 };
