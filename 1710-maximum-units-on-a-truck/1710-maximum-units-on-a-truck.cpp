@@ -19,6 +19,7 @@ public:
             total_units += num[0]*num[1];
             truckSize -= num[0];
         }
+        
         return total_units;
     }
 };
