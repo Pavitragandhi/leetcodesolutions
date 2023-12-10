@@ -11,6 +11,7 @@ public:
                 }
             }
         }
+        
         vector<int> answer(result.begin() , result.end());
         return answer;
     }
