@@ -16,7 +16,6 @@ public:
                 result.push_back({arr[i] , arr[i+1]});
             }
         }
-        
         return result;
     }
 };
