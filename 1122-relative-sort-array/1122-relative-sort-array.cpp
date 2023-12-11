@@ -21,6 +21,7 @@ public:
             }
         }
         store1.insert(store1.end() , store2.begin() , store2.end());
+        
         return store1;
     }
 };
