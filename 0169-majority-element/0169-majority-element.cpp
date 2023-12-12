@@ -18,7 +18,6 @@ public:
             maximum = anwser.second;
             break;
         }
-        
         return maximum;
     }
 };
