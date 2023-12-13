@@ -18,7 +18,6 @@ public:
         }
         sort(store.begin() , store.end());
         int result = money - store[0];
-        
         return result;
     }
 };
