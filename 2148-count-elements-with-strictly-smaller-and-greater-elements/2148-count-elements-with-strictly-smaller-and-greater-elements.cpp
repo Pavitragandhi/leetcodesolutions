@@ -3,9 +3,9 @@ public:
     int countElements(vector<int>& nums) {
         int n = nums.size();
         int count = 0;
-        sort(nums.begin() , nums.end());
+        //sort(nums.begin() , nums.end());
         
-        for(int i = 1; i<n-1; i++){
+        for(int i = 0; i<n; i++){
             bool smaller_check = false;
             bool greater_check = false;
             
