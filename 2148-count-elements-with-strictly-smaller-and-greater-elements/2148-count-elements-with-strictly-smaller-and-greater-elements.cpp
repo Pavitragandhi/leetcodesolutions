@@ -23,7 +23,6 @@ public:
                 count++;
             }
         }
-        
         return count;
     }
 };
