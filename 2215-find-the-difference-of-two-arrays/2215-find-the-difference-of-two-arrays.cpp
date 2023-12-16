@@ -18,7 +18,6 @@ public:
                 store2.push_back(number);
             }
         }
-        
         return {store1 , store2};
     }
 };
