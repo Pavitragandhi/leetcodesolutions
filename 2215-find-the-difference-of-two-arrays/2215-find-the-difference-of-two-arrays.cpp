@@ -17,6 +17,7 @@ public:
                 store2.push_back(nums2[i]);
             }
         }
+        
         return {store1 , store2};
     }
 };
