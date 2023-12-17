@@ -21,7 +21,6 @@ public:
                 row = i;
             }
         }
-        
         return {row , max_ones};
     }
 };
