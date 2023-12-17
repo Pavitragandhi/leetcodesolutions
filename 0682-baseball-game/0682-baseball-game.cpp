@@ -25,7 +25,6 @@ public:
         for(int i : record){
             total_sum += i;
         }
-        
         return total_sum;
     }
 };
