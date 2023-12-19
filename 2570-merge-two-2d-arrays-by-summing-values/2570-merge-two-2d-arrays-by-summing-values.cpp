@@ -21,7 +21,6 @@ public:
         for(auto num : store){
             result.push_back({num.first , num.second});
         }
-        
         return result;
     }
 };
