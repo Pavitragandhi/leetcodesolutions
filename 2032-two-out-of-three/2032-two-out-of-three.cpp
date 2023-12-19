@@ -24,6 +24,7 @@ public:
                 result.insert(number);
             }
         }
+        
         vector<int> ans(result.begin() , result.end());
         return ans;
     }
