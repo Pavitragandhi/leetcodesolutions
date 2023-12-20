@@ -6,6 +6,7 @@ public:
         if(n == 0 || n == 1) {
             return pref;
         }
+        
         for(int i = n - 1; i >= 1; i--) {
             pref[i] ^= pref[i - 1];
         }
