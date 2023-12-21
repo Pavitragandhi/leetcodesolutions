@@ -41,7 +41,6 @@ public:
        int total = m + n;
        int mid1 = find_K_Element((total + 1) / 2);
        int mid2 = find_K_Element((total + 2) / 2);
-
        return (mid1 + mid2) / 2.0;
     }
 };
