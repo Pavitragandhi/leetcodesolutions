@@ -14,6 +14,7 @@ public:
         if(check){
             return minimum;
         }
+        
         return -1;
     }
 };
