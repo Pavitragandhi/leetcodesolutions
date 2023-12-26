@@ -21,7 +21,6 @@ public:
             }
             maximum = max(maximum , n);
         }
-        
         return maximum;
     }
 };
