@@ -11,9 +11,7 @@ public:
             else if(num < 0){
                 neg_count++;
             }
-        }
-        
-        int result = max(pos_count , neg_count);
-        return result;
+        } 
+        return max(pos_count , neg_count);
     }
 };
