@@ -25,6 +25,7 @@ public:
                 sum += word.size();
             }
         }
+        
         return sum;
     }
 };
