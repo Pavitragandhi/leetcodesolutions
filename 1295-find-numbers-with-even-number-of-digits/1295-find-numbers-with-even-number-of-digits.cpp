@@ -11,7 +11,6 @@ public:
                 count++;
                 store /= 10;
             }
-            
             if(count%2 == 0){
                 result++;
             }
