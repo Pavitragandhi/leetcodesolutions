@@ -15,7 +15,6 @@ public:
                 result++;
             }
         }
-        
         return result;
     }
 };
