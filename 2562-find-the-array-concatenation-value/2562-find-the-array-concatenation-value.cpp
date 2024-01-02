@@ -10,7 +10,8 @@ public:
 
                 nums.erase(nums.begin());
                 nums.pop_back();
-            } 
+            }
+            
             else{
                 con_sum += nums.front();
                 nums.pop_back();
