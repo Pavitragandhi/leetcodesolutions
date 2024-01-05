@@ -11,6 +11,7 @@ public:
                 }
             }
         }
+        
         return count;
     }
     
@@ -26,7 +27,6 @@ private:
         for(char c : word2){
             charSet2.set(static_cast<unsigned char>(c));
         }
-
         return charSet1 == charSet2;
     }
 };
