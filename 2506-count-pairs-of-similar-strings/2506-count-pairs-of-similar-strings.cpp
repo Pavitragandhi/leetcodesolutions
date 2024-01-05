@@ -16,9 +16,17 @@ public:
     
 private:
     bool check_pairs_similarity(string word1 , string word2){
-        unordered_set<char> set1(word1.begin() , word1.end());
-        unordered_set<char> set2(word2.begin() , word2.end());
-        
-        return set1 == set2;
+        bitset<256> charSet1;
+        bitset<256> charSet2;
+
+        for(char c : word1){
+            charSet1.set(static_cast<unsigned char>(c));
+        }
+
+        for(char c : word2){
+            charSet2.set(static_cast<unsigned char>(c));
+        }
+
+        return charSet1 == charSet2;
     }
 };
