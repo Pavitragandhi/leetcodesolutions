@@ -14,7 +14,6 @@ public:
                 break;
             }
         }
-        
         return result;
     }
 };
