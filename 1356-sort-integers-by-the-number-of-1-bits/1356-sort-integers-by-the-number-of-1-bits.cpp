@@ -14,6 +14,7 @@ public:
         for(auto num : store){
             result.push_back(num.second);
         }
+        
         return result;
     }
 };
