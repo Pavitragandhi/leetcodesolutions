@@ -17,7 +17,6 @@ public:
             result[pair.second] = pair.first;
         }
         auto it = result.begin();
-        
         return it->second;
     }
 };
