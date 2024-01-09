@@ -13,6 +13,7 @@ public:
             }
             size_of_line += char_width;
         }
+        
         return {lines , size_of_line};
     }
 };
