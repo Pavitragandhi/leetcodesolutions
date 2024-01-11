@@ -8,7 +8,6 @@ public:
         if(n >= m){
             return m;
         }
-        
         return n;
     }
 };
