@@ -5,9 +5,8 @@ public:
         int n = gifts.size();
         
         while(k>0){
-            sort(gifts.begin() , gifts.end());
-            int store = sqrt(gifts[n-1]);
-            gifts[n-1] = store;
+            int index = distance(gifts.begin() , max_element(gifts.begin() , gifts.end()));
+            gifts[index] = sqrt(gifts[index]);
             k--;
         }
         
