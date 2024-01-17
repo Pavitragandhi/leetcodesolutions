@@ -8,6 +8,7 @@ public:
             gifts[index] = sqrt(gifts[index]);
             k--;
         }
+        
         for(int num : gifts){
             result += num;
         }
