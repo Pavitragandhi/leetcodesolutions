@@ -12,6 +12,7 @@ public:
         for(int num : gifts){
             result += num;
         }
+        
         return result;
     }
 };
