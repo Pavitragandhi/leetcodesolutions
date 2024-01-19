@@ -27,6 +27,7 @@ public:
                 }
             }
         }
+        
         return result/100;
     }
 };
