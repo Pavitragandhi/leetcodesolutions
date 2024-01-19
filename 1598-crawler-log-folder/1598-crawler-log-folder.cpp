@@ -19,7 +19,6 @@ public:
                 result++;
             }
         }
-        
         return result;
     }
 };
