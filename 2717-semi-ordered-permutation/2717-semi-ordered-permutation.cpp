@@ -12,7 +12,6 @@ public:
                 pos_2 = i;
             }
         }
-        
         if(pos_1 < pos_2){
             return pos_1 + (n-1 - pos_2);
         }
