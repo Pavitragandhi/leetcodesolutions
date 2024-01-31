@@ -11,7 +11,6 @@ public:
                 count++;
             }
         }
-        
         return i;
     }
 };
