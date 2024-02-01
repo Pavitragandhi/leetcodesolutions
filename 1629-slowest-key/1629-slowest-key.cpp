@@ -13,6 +13,7 @@ public:
                 max_duration = duration;
             }
         }
+        
         return result;
     }
 };
