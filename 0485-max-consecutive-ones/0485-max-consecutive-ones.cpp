@@ -13,6 +13,7 @@ public:
                 count = 0;
             }
         }
+        
         result = max(result , count);
         return result;
     }
