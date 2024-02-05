@@ -20,6 +20,7 @@ public:
             
             left_sum += nums[i];
         }
+        
         return pivot;
     }
 };
