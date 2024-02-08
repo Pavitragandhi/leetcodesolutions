@@ -15,7 +15,6 @@ public:
             int diff = nums[i + k - 1] - nums[i];
             minimum = min(minimum, diff);
         }
-
         return minimum;
     }
 };
