@@ -14,7 +14,6 @@ public:
         for(auto pair : store){
             result.push_back(pair.second);
         }
-        
         return result;
     }
 };
