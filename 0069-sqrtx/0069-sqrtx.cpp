@@ -27,6 +27,7 @@ public:
     
     int mySqrt(int x) {
         int answer = BinarySearch(x);
+        
         return answer;
     }
 };
