@@ -22,7 +22,6 @@ public:
         
         int sum = stoi(first) + stoi(second);
         int sum_2 = stoi(target);
-        
         return sum == sum_2;
     }
 };
