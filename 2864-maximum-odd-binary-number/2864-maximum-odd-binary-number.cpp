@@ -22,7 +22,6 @@ public:
         }
         
         result[n-1] = '1';
-        
         return result;
     }
 };
