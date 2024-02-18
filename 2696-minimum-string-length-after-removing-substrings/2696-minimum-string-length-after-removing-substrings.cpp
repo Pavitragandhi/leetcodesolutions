@@ -17,7 +17,6 @@ public:
                 store.push(c);
             }
         }
-        
         return store.size();
     }
 };
