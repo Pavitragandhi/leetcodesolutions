@@ -28,6 +28,7 @@ public:
             store.pop();
         }
         reverse(result.begin() , result.end());
+        
         return result;
     }
 };
