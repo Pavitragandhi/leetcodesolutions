@@ -32,6 +32,7 @@ public:
             
             store.insert(position);
         }
+        
         return false;
     }
 };
