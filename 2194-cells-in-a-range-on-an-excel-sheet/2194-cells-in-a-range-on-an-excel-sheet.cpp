@@ -18,6 +18,7 @@ public:
                 store = "";
             }
         }
+        
         return result;
     }
 };
