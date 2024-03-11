@@ -29,7 +29,6 @@ public:
                 break;
             }
         }
-        
         return (first_cap || all_small || all_cap);
     }
 };
