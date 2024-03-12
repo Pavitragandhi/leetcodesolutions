@@ -29,6 +29,7 @@ public:
                 special = true;
             }
         }
+        
         return (lower_case && upper_case && digit && special);
     }
 };
