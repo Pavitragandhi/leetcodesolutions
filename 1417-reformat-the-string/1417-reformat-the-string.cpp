@@ -46,6 +46,7 @@ public:
             result += alpha[j];
             j++;
         }
+        
         return result;
     }
 };
