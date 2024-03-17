@@ -29,7 +29,6 @@ public:
             reverse(str.begin() , str.end());
             result += str;
         }
-        
         return result;
     }
 };
