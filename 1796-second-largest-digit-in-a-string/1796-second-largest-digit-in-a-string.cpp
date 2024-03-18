@@ -19,7 +19,6 @@ public:
         it--;
         
         int result = *it;
-        
         return result;
     }
 };
