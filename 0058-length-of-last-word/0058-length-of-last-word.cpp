@@ -11,7 +11,6 @@ public:
         
         int n = store.size();
         int result = store[n-1].size();
-        
         return result;
     }
 };
