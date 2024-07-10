@@ -21,6 +21,7 @@ public:
             
             mid = left + (right - left)/2;
         }
+        
         return result;
     }
 };
