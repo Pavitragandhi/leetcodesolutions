@@ -17,7 +17,6 @@ public:
                     continue;
                 }
             }
-            
             result.push_back(sum);
         }
         return result;
