@@ -28,6 +28,7 @@ public:
             }
             result += calculate;
         }
+        
         return result;
     }
 };
