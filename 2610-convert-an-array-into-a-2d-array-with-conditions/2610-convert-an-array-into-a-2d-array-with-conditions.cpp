@@ -24,7 +24,6 @@ public:
             result[line].push_back(num);
             check_2[num]++;
         }
-        
         return result;
     }
 };
