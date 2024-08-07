@@ -17,6 +17,7 @@ public:
         int n = cost.size();
         
         int result = solve(cost , n);
+        
         return result;
     }
 };
