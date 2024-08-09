@@ -4,7 +4,6 @@ public:
         if(n == 1){
             return 0;
         }
-        
         return (Winner(n-1 , k) + k) % n;
     }
     
