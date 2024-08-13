@@ -25,7 +25,6 @@ public:
         for(int i = 1; i<middle; i++){
             temp = temp -> next;
         }
-        
         return temp;
     }
 };
