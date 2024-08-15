@@ -24,6 +24,7 @@ public:
             prev = current;
             current = forward;
         }
+        
         return prev;
     }
 };
