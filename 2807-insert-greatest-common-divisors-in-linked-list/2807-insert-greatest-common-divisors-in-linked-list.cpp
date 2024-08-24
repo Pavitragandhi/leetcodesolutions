@@ -33,6 +33,7 @@ public:
             prev = current;
             current = current -> next;
         }
+        
         return head;
     }
 };
