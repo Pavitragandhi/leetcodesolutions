@@ -35,7 +35,6 @@ public:
                 store = prev;
             }
         }
-        
         head = head -> next;
         return head;
     }
