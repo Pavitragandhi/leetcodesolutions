@@ -20,7 +20,6 @@ public:
             
             result = add + result;
         }
-        
         return result;
     }
 };
